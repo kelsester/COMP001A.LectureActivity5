@@ -4,6 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>COMP001A.LectureActivity5 | Three Ways to Apply CSS</title>
+
+  <!--method 1: external css part 1-->
+  <link rel="stylesheet" href="main.css">
+
+  <!--method 2: internal css part 1-->
+  <style>
+    .internal-css{
+      color: #038c7f;
+      background-color: #04bfad;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -21,11 +32,31 @@
   </header>
 
   <main>
+    <section>
+      <h2>External CSS</h2>
+      
+      <!--method 1: external css part 2-->
+      <p class="external-css">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
+    </section>
+    <section>
+      <h2>Internal CSS</h2>
+      
+      <!--method 2: internal css part 2-->
+      <p class="internal-css">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    </section>
+    <section>
+      <h2>Inline CSS</h2>
+      
+      <!--method 3: inline css-->
+      <p style="color: #04bfad;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    </section>
   </main>
 
   <footer>
-    <p>&copy; Copyright 2023 Kelsey Jasso</p>
+    <p>&copy; Copyright 2023 Kelsey Jasso | <a href="https://github.com/kelsester" target="_blank">Github</a></p>
   </footer>
 
 </body>
