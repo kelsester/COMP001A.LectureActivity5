@@ -56,3 +56,29 @@ ul li{
 div ul{
   list-style-type: square;
 }
+
+/*general styling using a class*/
+.feature-card{
+  border: 2px solid #7f8c8d;
+  padding: 20px; /*adding space inside card*/
+  margin: 20px; /*adding space outside card*/
+  background-color: #f9f9f9;
+}
+
+.feature-card h3{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.feature-card p{
+  margin-bottom: 10px;
+  color: #7f8c8d;
+}
+
+/*specific styling using an id*/
+#special-feature{
+  background-color: #fde3a7;
+  border-color: #f39c12;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
