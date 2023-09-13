@@ -3,3 +3,56 @@
   color: #038c7f; /*teal text*/
   background-color: #01403a; /*dark teal backround*/
 }
+
+/*resetting some default styles using multiple selectors separated by commas*/
+body, h1, h2, p, ul, li, a{
+  margin: 0; /*removing default margin*/
+  padding: 0; /*removing default padding*/
+  font-family: Arial, Helvetica, sans-serif; /*setting default font*/
+}
+
+/*html element selector*/
+body{
+  background-color: #012626; /*dark teal background*/
+}
+
+h1{
+  color: #038c7f;
+  font-size: 2em; /*2x the default size*/
+  margin-bottom: 1em; /*adding space below heading*/
+}
+
+h2{
+  font-size: 1.5em;
+  color: #027368;
+}
+
+/*styling the paragraphs*/
+p{
+  font-size: 16px; /*16px is the default*/
+  color: #7f8c8d;
+  margin-bottom: 12px;
+}
+
+/*styling link in the paragraphs*/
+p a{
+  color: #f39c12;
+  text-decoration: none;
+}
+
+/*styling unordered lists*/
+ul{
+  list-style-type: none; /*removing the bullet points*/
+  margin-left: 20px; /*indenting the list*/
+  margin-bottom: 12px; 
+}
+
+ul li{
+  margin-bottom: 5px;
+  color: #7f8c8d;
+}
+
+/*styling lists in a div*/
+div ul{
+  list-style-type: square;
+}
